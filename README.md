@@ -1,5 +1,8 @@
 # Floating-Point-Convertor
-Converts binary to floating point numbers using a state machine in System Verilog.
+Converts 32-bit binary to a seven-segment display floating point format using a state machine in System Verilog.
+
+## Features
+- Variable display output range from a minimum of 6 digits up to 60+ digits.
 
 ## License
 

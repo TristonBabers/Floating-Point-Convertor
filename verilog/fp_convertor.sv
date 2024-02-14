@@ -49,7 +49,7 @@ module fp_convertor #(parameter DISPLAY_WIDTH = 8) (
   end
   
   // Logic
-  always_comb begin
+  always_latch begin
     // Default to RESET state
     next_state = RESET;
     next_itr = 0;

@@ -284,10 +284,7 @@ module top_level_tb #(parameter DISPLAY_WIDTH = 12) ();
   task display_task (
     input[DISPLAY_WIDTH-1:0][6:0] segment_array
     );
-    int result;
-      begin
-      result=$fopen("output.txt");
-
+    begin
       // segment A
       for (int i = DISPLAY_WIDTH - 1; i >= 0; i = i - 1) begin
         if(segment_array[i][6])

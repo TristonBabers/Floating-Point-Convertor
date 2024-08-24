@@ -1,5 +1,5 @@
 # Floating-Point-Convertor
-Converts 32-bit binary to a seven-segment display floating point format using a state machine in System Verilog. The number of seven-segment display digits can vary from a minimum of 6 digits up to 60+ digits. For more information, check out: [TristonBabers.com/floating-point-convertor](https://tristonbabers.com/projects/floating-point-convertor/).
+Converts 32-bit binary to a seven-segment display floating point format using a state machine in System Verilog. The number of seven-segment display digits can vary from a minimum of 6 digits up to 60+ digits.
 
 ## RTL Diagram
 ![](./docs/fp_convertor_RTL.png)
